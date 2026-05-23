@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Python if statement",
+    "lang": "Python",
+    "content": "if dùng để kiểm tra điều kiện",
+    "tags": ["basic", "control"]
+  },
+  {
+    "title": "C++ loop for",
+    "lang": "C++",
+    "content": "for dùng để lặp số lần cố định",
+    "tags": ["loop"]
+  },
+  {
+    "title": "Pascal writeln",
+    "lang": "Pascal",
+    "content": "writeln dùng để in ra màn hình",
+    "tags": ["output"]
+  },
+  {
+    "title": "Python list",
+    "lang": "Python",
+    "content": "list lưu nhiều giá trị trong một biến",
+    "tags": ["data"]
+  }
+
+  
+]

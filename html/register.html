@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CodeLib Register</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+
+  <section class="cl-auth-section">
+
+    <div class="container">
+
+      <div class="row justify-content-center align-items-center min-vh-100">
+
+        <div class="col-lg-5">
+
+          <div class="cl-auth-card">
+
+            <div class="cl-auth-top">
+
+              <div class="cl-auth-logo green-logo">
+                <i class="bi bi-person-plus"></i>
+              </div>
+
+              <h2>
+                Register
+              </h2>
+
+              <p>
+                Create your CodeLib account
+              </p>
+
+            </div>
+
+            <form>
+
+              <div class="cl-input-box">
+                <label>Username</label>
+                <input type="text" placeholder="Enter username">
+              </div>
+
+              <div class="cl-input-box">
+                <label>Email</label>
+                <input type="email" placeholder="Enter email">
+              </div>
+
+              <div class="cl-input-box">
+                <label>Password</label>
+                <input type="password" placeholder="Create password">
+              </div>
+
+              <button type="submit" class="cl-auth-btn green-btn">
+                <i class="bi bi-check-circle"></i>
+                Register
+              </button>
+
+            </form>
+
+            <div class="cl-auth-link">
+              Already have an account?
+              <a href="login.html">
+                Login
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+<script>
+  function showError(input, message) {
+    clearError(input);
+    input.classList.add("is-invalid");
+    const err = document.createElement("div");
+    err.className = "cl-error-msg";
+    err.textContent = message;
+    input.parentElement.appendChild(err);
+  }
+
+  function clearError(input) {
+    input.classList.remove("is-invalid");
+    const existing = input.parentElement.querySelector(".cl-error-msg");
+    if (existing) existing.remove();
+  }
+
+  function isValidEmail(email) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  }
+
+  const registerForm = document.querySelector("form");
+  const usernameInput = document.querySelector('input[type="text"]');
+  const emailInput = document.querySelector('input[type="email"]');
+  const passwordInput = document.querySelector('input[type="password"]');
+
+  [usernameInput, emailInput, passwordInput].forEach(input => {
+    input.addEventListener("input", () => clearError(input));
+  });
+
+  registerForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const username = usernameInput.value.trim();
+    const email = emailInput.value.trim();
+    const password = passwordInput.value.trim();
+    let valid = true;
+
+    if (!username) {
+      showError(usernameInput, "Vui lòng nhập tên người dùng.");
+      valid = false;
+    } else if (username.length < 3) {
+      showError(usernameInput, "Tên người dùng phải có ít nhất 3 ký tự.");
+      valid = false;
+    }
+
+    if (!email) {
+      showError(emailInput, "Vui lòng nhập email.");
+      valid = false;
+    } else if (!isValidEmail(email)) {
+      showError(emailInput, "Email không hợp lệ.");
+      valid = false;
+    }
+
+    if (!password) {
+      showError(passwordInput, "Vui lòng nhập mật khẩu.");
+      valid = false;
+    } else if (password.length < 6) {
+      showError(passwordInput, "Mật khẩu phải có ít nhất 6 ký tự.");
+      valid = false;
+    }
+
+    if (!valid) return;
+
+    const existingUser = JSON.parse(localStorage.getItem("codelibUser"));
+    if (existingUser && existingUser.email === email) {
+      showError(emailInput, "Email này đã được đăng ký.");
+      return;
+    }
+
+    localStorage.setItem("codelibUser", JSON.stringify({ username, email, password }));
+
+    window.location.href = "login.html";
+  });
+</script>
+</body>
+</html>

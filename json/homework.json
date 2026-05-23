@@ -1,0 +1,7632 @@
+[
+  {
+    "title": "Thể tích hình cầu",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập một diện tích S của một mặt cầu. Tính thể tích V của hình cầu này.",
+          "Ta có công thức: S = 4 * π * r^2 và V = (4/3) * π * r^3."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 256,128",
+          "Output: 385,442302"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tính bán kính r từ diện tích S.",
+          "Sử dụng công thức thể tích V để tính V."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Toạ Độ",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào tạo độ hai điểm A(xA`, yA) và B(xB, yB). Tính Khoảng cách giữa hai điểm A và B.",
+          "Ta có công thức khoảng cách AB = sqrt((xB - xA)^2 + (yB - yA)^2)."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: A(xA, yA) = (3 .2) (-1 .4)",
+          "Input: B(xB ,yB) = (-5 .7) (6 .1)",
+          "Output: 10.63014581273465"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng công thức khoảng cách để tính khoảng cách giữa hai điểm A và B.",
+          "Đảm bảo sử dụng hàm sqrt để tính căn bậc hai."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Toạ độ mở rộng",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết chương trình nhập vào tọa độ (xC, yC) là tâm của một đường tròn, và R là bán kính của đường tròn đó. Nhập vào tọa độ (xM, yM) của điểm M. Xác định điểm M nằm trong, nằm trên hay nằm ngoài đường tròn.",
+          "Nhap toa do tam C(xC, yC)? 0.5 4.3 ",
+          "Nhap ban kinh R? 7.4",
+          "Nhap toa do M(xM, yM)? 3.2 6.5",
+          "M nam trong C() "
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tính khoảng cách từ điểm M đến tâm C bằng công thức khoảng cách.",
+          "So sánh khoảng cách này với bán kính R để xác định vị trí của điểm M."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Tam giác",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình nhập vào ba số thực là ba cạnh của một tam giác. Kiểm tra ba cạnh được nhập có hợp lệ hay không. Nếu hợp lệ, hãy cho biết loại tam giác và tính diện tích tam giác đó. ",
+          "Tổng hai cạnh bất kỳ của một tam giác phải lớn hơn cạnh còn lại. Công thức Heron1 dùng tính diện tích tam giác theo chu vi: ",
+          "S = sqrt p(p-a)()p-b)(p-c) với p = (a + b + c) / 2."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 3 4 5",
+          "Output: Tam giác hợp lệ, tam giác vuông, diện tích = 6.0"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Kiểm tra tính hợp lệ của tam giác bằng cách sử dụng điều kiện tổng hai cạnh bất kỳ phải lớn hơn cạnh còn lại.",
+          "Xác định loại tam giác dựa trên độ dài các cạnh (tam giác đều, tam giác cân, tam giác vuông).",
+          "Sử dụng công thức Heron để tính diện tích nếu tam giác hợp lệ."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Tăng dần",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình nhập vào ba số nguyên. Hãy in ba số này ra màn hình theo thứ tự tăng dần và chỉ dùng tối đa một biến phụ. "
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 5 4 3",
+          "Output: 3 4 5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một biến phụ để hoán đổi giá trị của hai số khi cần thiết.",
+          "So sánh các số và hoán đổi chúng để đảm bảo chúng được sắp xếp theo thứ tự tăng dần."
+        ]
+      }
+
+    ]
+  },
+
+{
+    "title": "Phương trình bật 1",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình giải phương trình bậc 1: ax + b = 0 (a, b nhập từ bàn phím). Xét tất cả các trường hợp có thể."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 4 -3",
+          "Output: 0.75"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Xét các trường hợp: a = 0 và b = 0 (vô số nghiệm), a = 0 và b != 0 (vô nghiệm), a != 0 (có nghiệm duy nhất)."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Phương trình bật 2",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết chương trình giải phương trình bậc 2: ax2 + bx + c = 0 (a, b, c nhập từ bàn phím). Xét tất cả các trường hợp có thể. ",
+          "Nghiệm của phương trình bậc 2: ax2 + bx + c = 0 (a ≠ 0)",
+          "x = -b + sqrt tam giác/2a, với delta tam giác = b2 - 4ac."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 2 1 -4",
+          "Output: x1 = -6,74456, x2 = 4,74456"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Xét các trường hợp dựa trên giá trị của delta (tam giác): delta > 0 (có hai nghiệm phân biệt), delta = 0 (có một nghiệm kép), delta < 0 (vô nghiệm thực).",
+          "Sử dụng công thức nghiệm để tính nghiệm của phương trình bậc 2 khi a ≠ 0."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Tìm cos(X)",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình nhập vào số x chỉ số đo của một góc, tính bằng phút. Cho biết nó thuộc góc vuông thứ bao nhiêu của vòng tròn lượng giác. Tính cos(x), dùng hàm do math.h cung cấp",
+          "60 phút = 1 độ. Công thức chuyển đổi giữa độ và radian: 1 radian = pi/180 degree"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 12345",
+          "Output: -0.900698"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Chuyển đổi số đo góc từ phút sang độ, sau đó từ độ sang radian.",
+          "Sử dụng hàm cos từ thư viện math.h để tính giá trị cos(x)."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Bảo hiểm xã hội",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Số bảo hiểm xã hội của Canada (SIN - Canadian Social Insurance Number) là một số có 9 chữ số, được kiểm tra tính hợp lệ như sau:",
+          "Số phải nhất (vị trí 1, tính từ phải sang, là số kiểm tra (check digit)).",
+          "Trong số đó được tính từ phải sang trái, không tính check gedit, bằng s1 +s2",
+          "+ s1 là tổng các có vị trí lẻ.",
+          "+ Các số có vị trí chẵn nhân đôi. Nếu kết quả nhân đôi có hai chữ số thì kết quả là tổng của hai chữ số này. s2 là tổng các kết quả.  ",
+          "SIN hợp lệ có tổng trọng số với số kiểm tra chia hết cho 10. ",
+          "Ví dụ: SIN 193456787 ",
+          "-  Số kiểm tra là 7 (màu xanh tô đậm). ",
+          "-  Trọng số là tổng của s1 và s2, với: ",
+          "+ s1 = 1 + 3 + 5 + 7 = 16 ",
+          "+ Các số có vị trí chẵn nhân đôi: (9 * 2) (4 * 2) (6 * 2) (8 * 2) => 18 8 12 16 s2 = (1 + 8) + 8 + (1 + 2) + (1 + 6) = 27 ",
+          "Trọng số bằng s1 + s2 = 16 + 27 = 43. ",
+          "Vì tổng trọng số với số kiểm tra 43 + 7 = 50 chia hết cho 10 nên số SIN hợp lệ. ",
+          "Viết chương trình nhập một số SIN. Kiểm tra xem số SIN đó có hợp lệ hay không.",
+          "Nhập 0 đê kết thúc chương trình."
+
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 193456787",
+          "Output: SIN hợp lệ"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tách số SIN thành các chữ số riêng biệt và tính s1 và s2 theo quy tắc đã cho.",
+          "Kiểm tra tính hợp lệ của số SIN bằng cách kiểm tra xem tổng trọng số với số kiểm tra có chia hết cho 10 hay không."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Bao đá kiếm",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết trò chơi bao - đá - kéo với luật chơi: bao thắng đá, đá thắng kéo, kéo thắng bao. Người dùng nhập vào một trong ba ký tự b (bao), d (đá), k (kéo); máy tính sinh ngẫu nhiên một trong ba ký tự trên, thông báo kết quả chơi. "
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: b",
+          "Computer: d",
+          "Output: Người chơi thắng"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng hàm random để sinh ngẫu nhiên lựa chọn của máy tính.",
+          "So sánh lựa chọn của người dùng với lựa chọn của máy tính để xác định kết quả chơi."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": " Dự đoán ngày tháng năm",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết chương trình nhập vào ngày, tháng, năm (giả sử nhập đúng, không cần kiểm tra hợp lệ). Tìm ngày, tháng, năm của ngày tiếp theo. "
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 28 2 2020",
+          "Output: 29 2 2020"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+             "Xác định số ngày trong tháng dựa trên tháng và năm (xem xét năm nhuận).",
+             "Tăng ngày lên 1. Nếu ngày vượt quá số ngày trong tháng, đặt ngày về 1 và tăng tháng lên 1. Nếu tháng vượt quá 12, đặt tháng về 1 và tăng năm lên 1."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "Xác định ngày tháng năm",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình nhập vào ngày, tháng, năm (giả sử nhập đúng, không cần kiểm tra hợp lệ). Tìm xem ngày đó là ngày thứ bao nhiêu trong năm. ",
+          "Nếu không dùng vòng lặp, có thể dùng công thức sau: ",
+          "sum = (int) (30.42 * (month - 1)) + day ",
+          "Nếu month = 2, hoặc năm nhuận và month > 2 thì sum = sum + 1 ",
+          "Nếu 2 < month < 8 thì sum = sum - 1 "
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 4 4 2000",
+          "Output: 95"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tính tổng số ngày của các tháng trước tháng đã cho, sau đó cộng với số ngày của tháng hiện tại.",
+          "Xem xét năm nhuận khi tính số ngày trong tháng 2."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Thời gian",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình nhập vào số giờ, xuất ra số tương đương tính theo tuần, theo ngày và theo giờ."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 1000",
+          "Output: 5 tuần, 6 ngày, 16 giờ"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tính số tuần bằng cách chia số giờ cho 168 (số giờ trong một tuần).",
+          "Tính số ngày còn lại sau khi trừ số tuần, bằng cách chia phần dư cho 24 (số giờ trong một ngày).",
+          "Số giờ còn lại sau khi trừ số tuần và số ngày sẽ là phần dư cuối cùng."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Thời gian trải qua",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào thời điểm 1 và thời điểm 2. Tìm thời gian trải qua giữa hai thời điểm này tính bằng giờ, phút, giây."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:[3 28 47] [5 40 12]",
+          "Output: 2 giờ, 11 phút, 25 giây"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Chuyển đổi cả hai thời điểm thành tổng số giây từ một mốc thời gian cố định (ví dụ: từ đầu ngày).",
+          "Tính hiệu số giữa hai tổng số giây để tìm tổng số giây trải qua.",
+          "Chuyển đổi tổng số giây trải qua trở lại thành giờ, phút và giây."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Tính tiền điện",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình nhập vào số Kw điện đã tiêu thụ trong tháng. Tính tổng tiền điện phải trả theo quy định sau: ",
+          "================================================================================================================",
+          "0 Kw = 500đ",
+          "từ 100 Kw đến 249 Kw = 800đ",
+          "250 Kw đến 349 Kw = 1000đ",
+          "từ 350 Kw trở đi = 1500đ"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 4321 Kw",
+          "Output: 6226500đ"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Xác định mức tiêu thụ điện dựa trên số Kw đã nhập.",
+          "Tính tổng tiền điện bằng cách nhân số Kw với đơn giá tương ứng theo từng mức tiêu thụ."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Tìm chữ số n",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào một số tự nhiên n (n khai báo kiểu unsigned long) ",
+          "a. Số tự nhiên n có bao nhiêu chữ số. ",
+          "b. Hãy tìm chữ số cuối cùng của n. ",
+          "c. Hãy tìm chữ số đầu tiên của n. ",
+          "d. Tính tổng các chữ số của n. ",
+          "e. Hãy tìm số đảo ngược của n. "
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 4321 ",
+          "Output: 4 chữ số",
+          "Output: Chữ số cuối cùng là 1",
+          "Output: Chữ số đầu tiên là 4",
+          "Output: Tổng các chữ số là 10",
+          "Output: Số đảo ngược là 1234"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Để đếm số chữ số, có thể sử dụng một vòng lặp để chia n cho 10 cho đến khi n bằng 0, đồng thời đếm số lần chia.",
+          "Chữ số cuối cùng của n là n % 10.",
+          "Để tìm chữ số đầu tiên, có thể tiếp tục chia n cho 10 cho đến khi n nhỏ hơn 10.",
+          "Để tính tổng các chữ số, có thể sử dụng một vòng lặp để lấy từng chữ số bằng cách sử dụng n % 10 và cộng chúng lại, sau đó chia n cho 10 để loại bỏ chữ số đã xử lý.",
+          "Để tìm số đảo ngược, có thể sử dụng một vòng lặp để lấy từng chữ số và xây dựng số đảo ngược bằng cách nhân số đảo ngược hiện tại với 10 và cộng với chữ số mới."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Thừa số nguyên tố",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào một số nguyên dương n, phân tích n thành các thừa số nguyên tố."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 12345",
+          "Output: 3 * 5 * 823"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Chia số n cho các số nguyên tố từ 2 trở đi cho đến khi n bằng 1.",
+          "Lưu lại các thừa số nguyên tố đã tìm được."
+        ]
+      }
+
+    ]
+  },
+   {
+    "title": "Số nguyên dương",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào một số nguyên dương n, phân tích n thành các thừa số nguyên tố."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 1966",
+          "Output: Các ước số của 1966 là: 1, 2, 983, 1966",
+          "Output: Có 4 ước số của 1966, tổng là 2952"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Chia số n cho các số nguyên tố từ 2 trở đi cho đến khi n bằng 1.",
+          "Lưu lại các thừa số nguyên tố đã tìm được."
+        ]
+      }
+
+    ]
+  },
+     {
+    "title": "Số nguyên tố đầu tiên",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết chương trình in ra n số nguyên tố đầu tiên (n nhập từ bàn phím)."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 15",
+          "Output: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một vòng lặp để kiểm tra từng số nguyên bắt đầu từ 2 để xem nó có phải là số nguyên tố hay không.",
+          "Đếm số lượng số nguyên tố đã tìm được và dừng khi đã in ra n số nguyên tố."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "Số nguyên dương lớn nhất",
+
+    "topic": "Tham khảo",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình nhập số nguyên dương n. Tìm số nguyên dương m lớn nhất sao cho: 1 + 2 + … + m < n. "
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input: 22",
+          "Output: 6"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng công thức tổng của dãy số tự nhiên: S = m * (m + 1) / 2.",
+          "Tìm giá trị lớn nhất của m sao cho m * (m + 1) / 2 < n."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "1. Ma trận xoắn ốc",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào một ma trận vuông kích thước n x n và in các phần tử của ma trận theo dạng xoắn ốc từ ngoài vào trong"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3",
+          "1 2 3",
+          "4 5 6",
+          "7 8 9",
+          "Output: 1 2 3 6 9 8 7 4 5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng bốn biến để theo dõi ranh giới của ma trận (top, bottom, left, right).",
+          "Dùng một vòng lặp để in các phần tử theo thứ tự: từ trái sang phải, từ trên xuống dưới, từ phải sang trái, và từ dưới lên trên, sau đó cập nhật ranh giới tương ứng."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "2. Tìm tổng đường chéo chính và phụ",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết chương trình nhập vào một ma trận vuông n x n và tính tổng các phần tử nằm trên đường chéo chính và đường chéo phụ."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3",
+          "1 2 3",
+          "4 5 6",
+          "7 8 9",
+          "Output: tổng đường chéo chính: 15, tổng đường chéo phụ: 15"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tổng đường chéo chính được tính bằng cách cộng các phần tử có chỉ số (i, i) với i từ 0 đến n-1.",
+          "Tổng đường chéo phụ được tính bằng cách cộng các phần tử có chỉ số (i, n-1-i) với i từ 0 đến n-1."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "3. Tìm hàng có tổng lớn nhất",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào ma trận m x n và tìm hàng có tổng lớn nhất, in ra tổng và chỉ số hàng"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3 3",
+          "1 2 3",
+          "4 5 6",
+          "7 8 9",
+          "Output: hàng có tổng lớn nhất là hàng 2 với tổng là: 24"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một vòng lặp để tính tổng của mỗi hàng và so sánh với tổng lớn nhất đã tìm được.",
+          "Lưu lại chỉ số của hàng có tổng lớn nhất để in ra kết quả."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "4. Đếm số lượng số nguyên tố trong ma trận",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Viết chương trình đếm số lượng số nguyên tố trong ma trận kích thước m x n."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3 3",
+          "1 2 3",
+          "4 5 6",
+          "7 8 9",
+          "Output: Số lượng số nguyên tố: 4"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một vòng lặp lồng nhau để duyệt qua tất cả phần tử của ma trận.",
+          "Kiểm tra mỗi phần tử xem nó có phải là số nguyên tố hay không bằng cách sử dụng một hàm kiểm tra số nguyên tố."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "5. Tìm phần tử xuất hiện nhiều nhất",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào một ma trận m x n và tìm phần tử xuất hiện nhiều nhất."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "2 3",
+          "1 2 2",
+          "3 4 2",
+          "Output: Phần tử xuất hiện nhiều nhất là: 2"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một cấu trúc dữ liệu (ví dụ: mảng hoặc bảng băm) để đếm số lần xuất hiện của mỗi phần tử trong ma trận.",
+          "Duyệt qua cấu trúc dữ liệu để tìm phần tử có số lần xuất hiện lớn nhất."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "6. Chuyển vị ma trận",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết chương trình nhập vào một ma trận m x n và in ra ma trận chuyển vị của nó."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "2 3",
+          "1 2 3",
+          "4 5 6",
+          "Output:",
+          "1 4",
+          "2 5",
+          "3 6"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tạo một ma trận mới có kích thước n x m để lưu trữ kết quả chuyển vị.",
+          "Sử dụng hai vòng lặp lồng nhau để gán giá trị từ ma trận gốc sang ma trận chuyển vị, với phần tử tại vị trí (i, j) của ma trận gốc sẽ được gán cho vị trí (j, i) của ma trận chuyển vị."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "7. Sắp xếp các hàng trong ma trận",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào một ma trận m x n và sắp xếp từng hàng theo thứ tự tăng dần."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "2 3",
+          "3 2 1",
+          "6 4 5",
+          "Output:",
+          "1 2 3",
+          "4 5 6"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một thuật toán sắp xếp (ví dụ: sắp xếp nổi bọt, sắp xếp chọn, hoặc sắp xếp nhanh) để sắp xếp từng hàng của ma trận.",
+          "Duyệt qua mỗi hàng của ma trận và áp dụng thuật toán sắp xếp cho từng hàng."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "8. Tìm cột có tổng lớn nhất",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào ma trận m x n và tìm cột có tổng lớn nhất, in ra tổng và chỉ số cột"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3 3",
+          "1 2 3",
+          "4 5 6",
+          "Output: Cột có tổng lớn nhất là cột 2 với tổng là: 24"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một vòng lặp lồng nhau để tính tổng của mỗi cột và so sánh với tổng lớn nhất đã tìm được.",
+          "Lưu lại chỉ số của cột có tổng lớn nhất để in ra kết quả."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "9. Đếm số lượng phần tử chẵn và lẻ",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết chương trình đếm số lượng phần tử chẵn và lẻ trong ma trận kích thước m x n."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3 3",
+          "1 2 3",
+          "4 5 6",
+          "7 8 9",
+          "Output: Số lượng phần tử chẵn: 4, Số lượng phần tử lẻ: 5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một vòng lặp lồng nhau để duyệt qua tất cả phần tử của ma trận.",
+          "Kiểm tra mỗi phần tử xem nó là chẵn hay lẻ bằng cách sử dụng phép toán modulo (%).",
+          "Đếm số lượng phần tử chẵn và lẻ và in ra kết quả."
+        ]
+      }
+
+    ]
+  },
+    {
+    "title": "10. Tính tích các phần tử trong ma trận",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào ma trận m x n và tính tích tất cả các phần tử trong ma trận."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "2 2",
+          "1 2",
+          "3 4",
+          "Output: Tích các phần tử trong ma trận là: 24"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một vòng lặp lồng nhau để duyệt qua tất cả phần tử của ma trận.",
+          "Khởi tạo một biến tích với giá trị ban đầu là 1, sau đó nhân biến này với mỗi phần tử của ma trận."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "11. Tìm số lượng ô có giá trị lớn nhất",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Nhập vào một ma trận kích thước m x n, tìm và đếm số ô có giá trị lớn nhất trong ma trận."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3 3",
+          "1 3 3",
+          "4 5 6",
+          "7 8 6",
+          "Output: Số ô có giá trị lớn nhất là: 2"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một vòng lặp lồng nhau để duyệt qua tất cả phần tử của ma trận và tìm giá trị lớn nhất.",
+          "Sau khi tìm được giá trị lớn nhất, sử dụng một vòng lặp khác để đếm số ô có giá trị bằng với giá trị lớn nhất."
+        ]
+      }
+
+    ]
+  },
+   {
+    "title": "12. Đếm số lượng ô có giá trị âm",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Viết chương trình đếm số lượng ô có giá trị âm trong ma trận"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "diff",
+          "3 3",
+          "-1 2 -3",
+          "4 -5 6",
+          "-7 8 -9",
+          "Output: Số nguyên dương lớn nhất là: 5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sử dụng một vòng lặp lồng nhau để duyệt qua tất cả phần tử của ma trận.",
+          "Kiểm tra mỗi phần tử xem nó có phải là số âm hay không bằng cách so sánh với 0.",
+          "Đếm số lượng ô có giá trị âm và in ra kết quả."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "13. Tìm số nguyên dương lớn nhất",
+
+    "topic": "Mảng 2 Chiều",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          " Nhập vào một ma trận kích thước m x n và tìm số nguyên dương lớn nhất."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "diff",
+          "  ",
+          "3 3",
+          "-1 2 3",
+          "4 5 -6",
+          "-7 8 9",
+          "Output: Số nguyên dương lớn nhất là: 9"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+            "Sử dụng một vòng lặp lồng nhau để duyệt qua tất cả phần tử của ma trận.",
+            "Kiểm tra mỗi phần tử xem nó có phải là số âm hay không bằng cách so sánh với 0.",
+            "Đếm số lượng ô có giá trị âm và in ra kết quả."
+          ]
+      }
+
+    ]
+  },
+  {
+  "title": "14. Kiểm tra ma trận đối xứng",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình kiểm tra một ma trận vuông có phải là ma trận đối xứng hay không.",
+        "Ma trận đối xứng là ma trận có a[i][j] = a[j][i] với mọi i và j."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n là kích thước ma trận vuông.",
+        "n dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3",
+        "1 2 3",
+        "2 4 5",
+        "3 5 6",
+        "",
+        "Output:",
+        "Ma trận là ma trận đối xứng."
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt các phần tử phía trên đường chéo chính.",
+        "So sánh a[i][j] với a[j][i].",
+        "Nếu tồn tại một cặp khác nhau thì ma trận không đối xứng."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "15. Xoay ma trận 90 độ",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình nhập vào ma trận kích thước m x n.",
+        "Xoay ma trận 90 độ theo chiều kim đồng hồ.",
+        "In ra ma trận sau khi xoay."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "2 3",
+        "1 2 3",
+        "4 5 6",
+        "",
+        "Output:",
+        "4 1",
+        "5 2",
+        "6 3"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Sau khi xoay, số cột cũ sẽ trở thành số dòng mới.",
+        "Phần tử tại vị trí a[i][j] sẽ chuyển sang vị trí mới.",
+        "Dùng ma trận phụ để lưu kết quả sau khi xoay."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "16. Tìm tất cả các số nguyên tố trong ma trận",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình nhập vào ma trận kích thước m x n.",
+        "Tìm và in ra tất cả các số nguyên tố xuất hiện trong ma trận.",
+        "Nếu không tồn tại số nguyên tố thì in ra thông báo phù hợp."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 3",
+        "1 2 3",
+        "4 5 6",
+        "7 8 9",
+        "",
+        "Output:",
+        "Các số nguyên tố trong ma trận: 2 3 5 7"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt toàn bộ ma trận bằng 2 vòng lặp.",
+        "Viết hàm kiểm tra số nguyên tố.",
+        "Số nguyên tố là số lớn hơn 1 và chỉ chia hết cho 1 và chính nó."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "17. Chia ma trận thành 4 phần",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình nhập vào ma trận kích thước m x n.",
+        "Chia ma trận thành 4 phần và in ra từng phần.",
+        "Giả sử m và n đều là số chẵn."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "4 4",
+        "1 2 3 4",
+        "5 6 7 8",
+        "9 10 11 12",
+        "13 14 15 16",
+        "",
+        "Output:",
+        "Phần 1:",
+        "1 2",
+        "5 6",
+        "",
+        "Phần 2:",
+        "3 4",
+        "7 8",
+        "",
+        "Phần 3:",
+        "9 10",
+        "13 14",
+        "",
+        "Phần 4:",
+        "11 12",
+        "15 16"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "2 <= m, n <= 100",
+        "m và n là số chẵn",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Tìm điểm giữa của ma trận bằng m / 2 và n / 2.",
+        "Dùng vòng lặp để duyệt từng vùng.",
+        "Mỗi phần là một ma trận con."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "18. Kiểm tra ma trận vuông",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vào ma trận kích thước m x n.",
+        "Kiểm tra ma trận có phải là ma trận vuông hay không.",
+        "Ma trận vuông là ma trận có số hàng bằng số cột."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 3",
+        "1 2 3",
+        "4 5 6",
+        "7 8 9",
+        "",
+        "Output:",
+        "Ma trận là ma trận vuông."
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "So sánh số hàng và số cột.",
+        "Nếu m == n thì là ma trận vuông."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "19. Tính trung bình mỗi hàng",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình tính trung bình cộng của từng hàng trong ma trận m x n.",
+        "In ra trung bình cộng của mỗi hàng."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "2 3",
+        "1 2 3",
+        "4 5 6",
+        "",
+        "Output:",
+        "Hàng 1: 2",
+        "Hàng 2: 5"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Tính tổng từng hàng.",
+        "Lấy tổng chia cho số cột n."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "20. Tìm hàng có giá trị lớn nhất",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vào ma trận kích thước m x n.",
+        "Tìm hàng chứa phần tử lớn nhất trong ma trận.",
+        "In ra chỉ số hàng và giá trị lớn nhất."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 3",
+        "1 2 3",
+        "4 5 6",
+        "7 8 9",
+        "",
+        "Output:",
+        "Hàng có giá trị lớn nhất là hàng 3 với giá trị lớn nhất là: 9"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt toàn bộ ma trận.",
+        "Lưu giá trị lớn nhất hiện tại.",
+        "Lưu vị trí hàng chứa giá trị đó."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "21. Sắp xếp các cột trong ma trận",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vào ma trận kích thước m x n.",
+        "Sắp xếp từng cột của ma trận theo thứ tự tăng dần.",
+        "In ra ma trận sau khi sắp xếp."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 2",
+        "3 1",
+        "2 4",
+        "1 3",
+        "",
+        "Output:",
+        "1 1",
+        "2 3",
+        "3 4"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt từng cột riêng biệt.",
+        "Sắp xếp các phần tử trong mỗi cột.",
+        "Có thể dùng thuật toán sort."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "22. Đếm số ô có giá trị bằng x",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình đếm số ô có giá trị bằng x trong ma trận.",
+        "In ra số lần xuất hiện của x."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên.",
+        "Dòng cuối cùng là giá trị x cần tìm."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 3",
+        "1 2 3",
+        "4 5 6",
+        "1 8 1",
+        "1",
+        "",
+        "Output:",
+        "Số ô có giá trị bằng 1: 3"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j], x <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt toàn bộ ma trận.",
+        "Nếu phần tử bằng x thì tăng biến đếm."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "23. Tính số lượng phần tử duy nhất trong ma trận",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình tính số lượng phần tử khác nhau trong ma trận.",
+        "Mỗi giá trị chỉ được tính một lần."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 3",
+        "1 2 2",
+        "3 4 4",
+        "5 6 6",
+        "",
+        "Output:",
+        "Số lượng phần tử duy nhất: 6"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng Set hoặc Hash Map.",
+        "Thêm từng phần tử vào Set.",
+        "Kích thước Set chính là số lượng phần tử khác nhau."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "24. Tính số lần xuất hiện của một số trong ma trận",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình đếm số lần xuất hiện của một số cho trước trong ma trận.",
+        "In ra tổng số lần xuất hiện của số đó."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên.",
+        "Dòng cuối là số x cần kiểm tra."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 3",
+        "1 2 2",
+        "3 4 2",
+        "5 2 6",
+        "2",
+        "",
+        "Output:",
+        "Số 2 xuất hiện: 4 lần"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j], x <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt toàn bộ ma trận.",
+        "Nếu phần tử bằng x thì tăng biến đếm."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "25. Tính tổng các số ở hàng chẵn",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vào ma trận kích thước m x n.",
+        "Tính tổng các phần tử nằm ở hàng chẵn.",
+        "Chỉ tính các hàng có chỉ số chẵn theo thứ tự tự nhiên."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "4 4",
+        "1 2 3 4",
+        "5 6 7 8",
+        "9 10 11 12",
+        "13 14 15 16",
+        "",
+        "Output:",
+        "Tổng các số ở hàng chẵn: 70"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt các hàng có chỉ số chẵn.",
+        "Cộng toàn bộ phần tử trong các hàng đó."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "26. Tìm số nguyên dương lớn nhất trong mỗi hàng",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình tìm số nguyên dương lớn nhất trong từng hàng của ma trận.",
+        "In ra giá trị lớn nhất của mỗi hàng."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 4",
+        "-1 2 -3 4",
+        "5 -5 6 -7",
+        "7 8 9 10",
+        "",
+        "Output:",
+        "Số nguyên dương lớn nhất trong mỗi hàng: 4 6 10"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt từng hàng.",
+        "Kiểm tra các phần tử > 0.",
+        "Lưu giá trị dương lớn nhất của từng hàng."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "27. Kiểm tra ma trận đối xứng",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Viết chương trình kiểm tra ma trận vuông có phải là ma trận đối xứng hay không.",
+        "Ma trận đối xứng khi a[i][j] = a[j][i] với mọi i và j."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "n dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3",
+        "1 2 3",
+        "2 4 5",
+        "3 5 6",
+        "",
+        "Output:",
+        "Ma trận là ma trận đối xứng."
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "So sánh a[i][j] và a[j][i].",
+        "Nếu có một cặp khác nhau thì ma trận không đối xứng."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "28. Sắp xếp ma trận theo hàng",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vào ma trận kích thước m x n.",
+        "Sắp xếp từng hàng của ma trận theo thứ tự giảm dần.",
+        "In ra ma trận sau khi sắp xếp."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "2 3",
+        "3 1 2",
+        "6 4 5",
+        "",
+        "Output:",
+        "3 2 1",
+        "6 5 4"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt từng hàng riêng biệt.",
+        "Sắp xếp các phần tử của hàng theo thứ tự giảm dần.",
+        "Có thể dùng hàm sort."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "29. Đếm số hàng có tổng lớn hơn giá trị cho trước",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vào ma trận kích thước m x n.",
+        "Đếm số hàng có tổng các phần tử lớn hơn giá trị k."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên.",
+        "Dòng cuối cùng là giá trị k."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 3",
+        "1 2 3",
+        "4 5 6",
+        "7 8 9",
+        "15",
+        "",
+        "Output:",
+        "Số hàng có tổng lớn hơn 15: 1"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j], k <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Tính tổng từng hàng.",
+        "So sánh tổng với k.",
+        "Nếu lớn hơn thì tăng biến đếm."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "30. Tìm số lần xuất hiện của một số trong ma trận",
+
+  "topic": "Mảng 2 Chiều",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vào ma trận kích thước m x n và số x.",
+        "Tính số lần xuất hiện của x trong ma trận."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm hai số nguyên m và n.",
+        "m dòng tiếp theo, mỗi dòng gồm n số nguyên.",
+        "Dòng cuối cùng là giá trị x."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "3 3",
+        "1 2 3",
+        "4 5 6",
+        "7 8 9",
+        "5",
+        "",
+        "Output:",
+        "Số 5 xuất hiện: 1 lần"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= m, n <= 100",
+        "-10^9 <= a[i][j], x <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt toàn bộ ma trận.",
+        "Nếu phần tử bằng x thì tăng biến đếm."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "1. Nhập Và Xuất Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "In ra các phần tử của vector theo đúng thứ tự đã nhập."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "5",
+        "1 2 3 4 5",
+        "",
+        "Output:",
+        "1 2 3 4 5"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 10^5",
+        "-10^9 <= a[i] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng vector để lưu dữ liệu.",
+        "Duyệt vector và in từng phần tử."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "2. Tính Tổng Các Phần Tử Trong Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "Tính tổng tất cả phần tử trong vector."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "5",
+        "1 2 3 4 5",
+        "",
+        "Output:",
+        "15"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 10^5",
+        "-10^9 <= a[i] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng biến sum để lưu tổng.",
+        "Duyệt vector và cộng từng phần tử."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "3. Tìm Giá Trị Lớn Nhất Và Nhỏ Nhất Trong Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "Tìm giá trị lớn nhất và nhỏ nhất trong vector."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "5",
+        "10 20 5 7 12",
+        "",
+        "Output:",
+        "Max: 20",
+        "Min: 5"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 10^5",
+        "-10^9 <= a[i] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Khởi tạo max và min bằng phần tử đầu tiên.",
+        "Duyệt vector để cập nhật giá trị lớn nhất và nhỏ nhất."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "4. Đếm Số Phần Tử Lớn Hơn Một Số Cho Trước",
+
+  "topic": "Vector",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên và số x.",
+        "Đếm số lượng phần tử trong vector lớn hơn x."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên.",
+        "Dòng cuối cùng là số nguyên x."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "6",
+        "10 5 3 12 18 7",
+        "8",
+        "",
+        "Output:",
+        "3"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 10^5",
+        "-10^9 <= a[i], x <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt toàn bộ vector.",
+        "Nếu phần tử lớn hơn x thì tăng biến đếm."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "5. Kiểm Tra Phần Tử Có Trong Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên và số x.",
+        "Kiểm tra xem x có tồn tại trong vector hay không."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên.",
+        "Dòng cuối cùng là số nguyên x."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "5",
+        "1 2 3 4 5",
+        "3",
+        "",
+        "Output:",
+        "Phần tử 3 có trong vector"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 10^5",
+        "-10^9 <= a[i], x <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt từng phần tử trong vector.",
+        "Nếu tìm thấy x thì kết thúc chương trình."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "6. Đảo Ngược Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "Đảo ngược thứ tự các phần tử trong vector.",
+        "In ra vector sau khi đảo ngược."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "5",
+        "1 2 3 4 5",
+        "",
+        "Output:",
+        "5 4 3 2 1"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 10^5",
+        "-10^9 <= a[i] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng 2 con trỏ trái và phải.",
+        "Hoán đổi phần tử ở hai đầu."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "7. Tính Tích Các Phần Tử Của Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "Tính tích của tất cả phần tử trong vector."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "4",
+        "2 3 4 5",
+        "",
+        "Output:",
+        "120"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 20",
+        "-10^6 <= a[i] <= 10^6"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Khởi tạo biến product = 1.",
+        "Nhân lần lượt từng phần tử của vector."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "8. Xóa Các Phần Tử Lặp Trong Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "Xóa các phần tử bị lặp.",
+        "Chỉ giữ lại các phần tử xuất hiện lần đầu tiên."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "6",
+        "1 2 2 3 4 4",
+        "",
+        "Output:",
+        "1 2 3 4"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 10^5",
+        "-10^9 <= a[i] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng Set hoặc Hash Map để kiểm tra phần tử đã xuất hiện.",
+        "Chỉ thêm phần tử chưa tồn tại vào kết quả."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "9. Sắp Xếp Vector Tăng Dần Và Giảm Dần",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "Sắp xếp vector theo thứ tự tăng dần và giảm dần."
+      ]
+    },
+
+    {
+      "smallTitle": "Input",
+
+      "content": [
+        "Dòng đầu gồm số nguyên n.",
+        "Dòng thứ hai gồm n số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "5",
+        "10 2 8 6 7",
+        "",
+        "Output:",
+        "Tăng dần: 2 6 7 8 10",
+        "Giảm dần: 10 8 7 6 2"
+      ]
+    },
+
+    {
+      "smallTitle": "Constraints",
+
+      "content": [
+        "1 <= n <= 10^5",
+        "-10^9 <= a[i] <= 10^9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng hàm sort để sắp xếp tăng dần.",
+        "Đảo ngược vector để có thứ tự giảm dần."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "10. Tìm Các Số Chẵn Và Lẻ Trong Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "Tìm và in ra tất cả các số chẵn và số lẻ trong vector."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "7",
+        "1 2 3 4 5 6 7",
+        "",
+        "Output:",
+        "Số chẵn: 2 4 6",
+        "Số lẻ: 1 3 5 7"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt từng phần tử.",
+        "Kiểm tra chia hết cho 2."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "11. Tìm Các Phần Tử Xuất Hiện Nhiều Nhất",
+
+  "topic": "Vector",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một vector gồm n số nguyên.",
+        "Tìm phần tử xuất hiện nhiều nhất trong vector."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "6",
+        "2 3 2 4 5 2",
+        "",
+        "Output:",
+        "Phần tử 2 xuất hiện 3 lần"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng Hash Map để đếm số lần xuất hiện.",
+        "Tìm giá trị có tần suất lớn nhất."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "12. Tìm Vị Trí Đầu Tiên Và Cuối Cùng Của Một Phần Tử",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vector và số x.",
+        "Tìm vị trí xuất hiện đầu tiên và cuối cùng của x."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "7",
+        "1 2 3 4 2 5 6",
+        "2",
+        "",
+        "Output:",
+        "Vị trí đầu tiên: 1",
+        "Vị trí cuối cùng: 4"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt từ trái sang phải để tìm vị trí đầu tiên.",
+        "Tiếp tục cập nhật vị trí cuối cùng."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "13. Tìm Các Phần Tử Có Tổng Bằng Một Số Cho Trước",
+
+  "topic": "Vector",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vector và số x.",
+        "Tìm các cặp phần tử có tổng bằng x."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "6",
+        "1 3 4 5 6 7",
+        "10",
+        "",
+        "Output:",
+        "(3, 7)",
+        "(4, 6)"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng Hash Set để tìm nhanh phần tử còn thiếu.",
+        "Kiểm tra x - a[i]."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "14. Tìm Phần Tử Có Giá Trị Lớn Nhất Và Nhỏ Nhất Trong Vector Hai Chiều",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vector hai chiều.",
+        "Tìm giá trị lớn nhất và nhỏ nhất."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "2 2",
+        "10 15",
+        "7 8",
+        "",
+        "Output:",
+        "Max: 15",
+        "Min: 7"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt toàn bộ vector hai chiều.",
+        "Cập nhật max và min."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "15. Sử Dụng Vector Như Một Ngăn Xếp",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Mô phỏng Stack bằng vector.",
+        "Thực hiện các thao tác push, pop và in stack."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Push: 10",
+        "Push: 20",
+        "Pop",
+        "Push: 30",
+        "",
+        "Output:",
+        "Stack: 10 30"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Push thêm phần tử vào cuối vector.",
+        "Pop xóa phần tử cuối."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "16. Tìm K-Phần Tử Lớn Nhất Trong Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vector và số k.",
+        "Tìm k phần tử lớn nhất trong vector."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "6",
+        "10 20 15 3 6 8",
+        "3",
+        "",
+        "Output:",
+        "20 15 10"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Sắp xếp vector giảm dần.",
+        "Lấy k phần tử đầu tiên."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "17. Xoay Vector Theo Chiều Kim Đồng Hồ",
+
+  "topic": "Vector",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vector và số k.",
+        "Xoay vector sang phải k lần."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "5",
+        "1 2 3 4 5",
+        "2",
+        "",
+        "Output:",
+        "4 5 1 2 3"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng reverse hoặc vector phụ.",
+        "Đưa các phần tử cuối lên đầu."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "18. Tìm Chuỗi Con Có Tổng Lớn Nhất",
+
+  "topic": "Vector",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vector các số nguyên.",
+        "Tìm chuỗi con liên tiếp có tổng lớn nhất."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "8",
+        "-2 -3 4 -1 -2 1 5 -3",
+        "",
+        "Output:",
+        "Chuỗi con có tổng lớn nhất: 7",
+        "(4 -1 -2 1 5)"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng thuật toán Kadane.",
+        "Theo dõi tổng hiện tại và tổng lớn nhất."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "19. Đếm Số Phần Tử Đạt Điều Kiện Trong Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập vector và số x.",
+        "Đếm số phần tử lớn hơn x và chia hết cho x."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "6",
+        "12 24 36 48 60 72",
+        "12",
+        "",
+        "Output:",
+        "6"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Kiểm tra a[i] > x.",
+        "Kiểm tra a[i] % x == 0."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "20. Tìm Phần Tử Chung Giữa Hai Vector",
+
+  "topic": "Vector",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập hai vector.",
+        "Tìm các phần tử xuất hiện trong cả hai vector."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Vector 1: 1 2 3 4 5",
+        "Vector 2: 3 4 5 6 7",
+        "",
+        "Output:",
+        "3 4 5"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng Set hoặc Hash Map.",
+        "Kiểm tra phần tử xuất hiện ở cả hai vector."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "1. Đếm Số Ký Tự Trong Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Đếm số lượng ký tự trong chuỗi."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "Hello",
+        "",
+        "Output:",
+        "5"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng hàm length hoặc size."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "2. Đảo Ngược Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "In chuỗi theo thứ tự đảo ngược."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "abcde",
+        "",
+        "Output:",
+        "edcba"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt chuỗi từ cuối về đầu.",
+        "Hoặc dùng reverse."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "3. Kiểm Tra Chuỗi Palindrome",
+
+  "topic": "String",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Kiểm tra chuỗi có phải palindrome hay không."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "radar",
+        "",
+        "Output:",
+        "Chuỗi là palindrome"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "So sánh ký tự đầu và cuối.",
+        "Dùng hai con trỏ."
+      ]
+    }
+
+  ]
+},
+
+{
+  "title": "4. Đếm Số Nguyên Âm Trong Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Đếm số nguyên âm trong chuỗi."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "hello world",
+        "",
+        "Output:",
+        "3"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Kiểm tra a, e, i, o, u.",
+        "Duyệt từng ký tự."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "5. Chuyển Đổi In Hoa/In Thường",
+
+  "topic": "String",
+
+  "difficulty": "Easy",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Chuyển chữ hoa thành chữ thường và ngược lại."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "HeLLo",
+        "",
+        "Output:",
+        "hEllO"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng toupper và tolower.",
+        "Kiểm tra isupper hoặc islower."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "6. Tách Từ Trong Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một câu.",
+        "Tách từng từ và in mỗi từ trên một dòng."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "This is a test",
+        "",
+        "Output:",
+        "This",
+        "is",
+        "a",
+        "test"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng stringstream.",
+        "Tách chuỗi theo dấu cách."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "7. Đếm Số Từ Trong Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một câu.",
+        "Đếm số lượng từ trong câu."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "Hello world!",
+        "",
+        "Output:",
+        "2"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Tách chuỗi thành từng từ.",
+        "Đếm số lượng từ."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "8. Tìm Từ Dài Nhất Trong Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một câu.",
+        "Tìm từ dài nhất trong câu."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "This is a simple example",
+        "",
+        "Output:",
+        "example"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Tách từng từ.",
+        "So sánh độ dài các từ."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "9. Xóa Khoảng Trắng Thừa",
+
+  "topic": "String",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Xóa khoảng trắng thừa giữa các từ."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "Hello     world",
+        "",
+        "Output:",
+        "Hello world"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt chuỗi.",
+        "Không thêm nhiều dấu cách liên tiếp."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "10. Thay Thế Từ Trong Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Medium",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập chuỗi, từ cũ và từ mới.",
+        "Thay tất cả từ cũ bằng từ mới."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "Chuỗi: I love programming programming",
+        "Từ cũ: programming",
+        "Từ mới: coding",
+        "",
+        "Output:",
+        "I love coding coding"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Tìm vị trí xuất hiện của từ cũ.",
+        "Dùng replace."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "11. Tìm Tất Cả Các Vị Trí Xuất Hiện Của Một Ký Tự",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập chuỗi và một ký tự.",
+        "In tất cả vị trí xuất hiện của ký tự."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "Chuỗi: hello hello",
+        "Ký tự: l",
+        "",
+        "Output:",
+        "2 3 8 9"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Duyệt từng ký tự.",
+        "Nếu bằng ký tự cần tìm thì in vị trí."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "12. Loại Bỏ Ký Tự Trùng Lặp Trong Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Xóa các ký tự trùng lặp."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "programming",
+        "",
+        "Output:",
+        "progamin"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng Set để lưu ký tự đã xuất hiện."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "13. Sắp Xếp Ký Tự Trong Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Sắp xếp các ký tự theo bảng chữ cái."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "programming",
+        "",
+        "Output:",
+        "aggimmnoprr"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng sort."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "14. Chuyển Chuỗi Thành Số Nguyên",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập chuỗi chỉ chứa số.",
+        "Chuyển chuỗi thành số nguyên."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "12345",
+        "",
+        "Output:",
+        "12345"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng stoi hoặc atoi."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "15. Xóa Tất Cả Ký Tự Không Phải Chữ Cái",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Xóa tất cả ký tự không phải chữ cái."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "Hello, world! 123",
+        "",
+        "Output:",
+        "Hello world"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng isalpha.",
+        "Giữ lại khoảng trắng."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "16. Tìm Chuỗi Con Dài Nhất Không Có Ký Tự Lặp",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Tìm chuỗi con dài nhất không có ký tự lặp."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "abcabcbb",
+        "",
+        "Output:",
+        "abc"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng sliding window.",
+        "Dùng Set để kiểm tra ký tự trùng."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "17. Tìm Tần Số Xuất Hiện Của Mỗi Ký Tự",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Đếm số lần xuất hiện của từng ký tự."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "aabbcc",
+        "",
+        "Output:",
+        "a: 2",
+        "b: 2",
+        "c: 2"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng Hash Map để đếm."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "18. Kiểm Tra Chuỗi Có Chứa Tất Cả Các Ký Tự Từ A-Z",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Kiểm tra chuỗi có chứa đủ các ký tự từ a-z."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "The quick brown fox jumps over the lazy dog",
+        "",
+        "Output:",
+        "Chuỗi chứa tất cả các ký tự từ a đến z"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Dùng Set để lưu ký tự."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "19. Tìm Chuỗi Con Palindrome Dài Nhất",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nhập một chuỗi.",
+        "Tìm chuỗi con palindrome dài nhất."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "babad",
+        "",
+        "Output:",
+        "bab"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Mở rộng từ tâm.",
+        "Kiểm tra palindrome quanh mỗi vị trí."
+      ]
+    }
+
+  ]
+},
+{
+  "title": "20. Nén Chuỗi",
+
+  "topic": "String",
+
+  "difficulty": "Hard",
+
+  "sections": [
+
+    {
+      "smallTitle": "Problem",
+
+      "content": [
+        "Nén chuỗi bằng run-length encoding."
+      ]
+    },
+
+    {
+      "smallTitle": "Example",
+
+      "content": [
+        "Input:",
+        "aaabbc",
+        "",
+        "Output:",
+        "a3b2c"
+      ]
+    },
+
+    {
+      "smallTitle": "Hint",
+
+      "hint": [
+        "Đếm số lần xuất hiện liên tiếp của ký tự."
+      ]
+    }
+
+  ]
+},
+  {
+    "title": "1. Tính Giai Thừa",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Hãy tính giai thừa của n bằng đệ quy.",
+          "Giai thừa của n được định nghĩa: n! = n × (n - 1) × ... × 1."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 12"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "",
+          "Output:",
+          "120"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Điều kiện dừng: n == 1.",
+          "Công thức đệ quy: n * factorial(n - 1)."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "2. Tính Tổng Từ 1 Đến n",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Tính tổng các số từ 1 đến n bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "",
+          "Output:",
+          "15"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "sum(n) = n + sum(n - 1).",
+          "Điều kiện dừng khi n == 1."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "3. Dãy Fibonacci",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "In ra số Fibonacci thứ n bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "0 <= n <= 30"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "7",
+          "",
+          "Output:",
+          "13"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "fib(n) = fib(n - 1) + fib(n - 2).",
+          "fib(0) = 0, fib(1) = 1."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "4. Đếm Chữ Số",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Đếm số lượng chữ số của n bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^18"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "12345",
+          "",
+          "Output:",
+          "5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Mỗi lần chia n cho 10.",
+          "Điều kiện dừng khi n < 10."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "5. Đảo Ngược Chuỗi",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho một chuỗi.",
+          "In chuỗi theo thứ tự đảo ngược bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= length <= 1000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "hello",
+          "",
+          "Output:",
+          "olleh"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "In ký tự cuối trước.",
+          "Gọi đệ quy với chuỗi còn lại."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "6. Tính Lũy Thừa",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho hai số nguyên a và n.",
+          "Tính a^n bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= a <= 100",
+          "0 <= n <= 20"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "2 5",
+          "",
+          "Output:",
+          "32"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "power(a, n) = a * power(a, n - 1).",
+          "Điều kiện dừng khi n == 0."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "7. Kiểm Tra Palindrome",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho một chuỗi.",
+          "Kiểm tra chuỗi có phải palindrome bằng đệ quy hay không."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= length <= 1000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "radar",
+          "",
+          "Output:",
+          "YES"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "So sánh ký tự đầu và cuối.",
+          "Gọi đệ quy với chuỗi bên trong."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "8. Tổng Các Chữ Số",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Tính tổng các chữ số bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^18"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "1234",
+          "",
+          "Output:",
+          "10"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Lấy chữ số cuối bằng n % 10.",
+          "Tiếp tục với n / 10."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "9. In Từ n Về 1",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "In các số từ n về 1 bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 1000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "",
+          "Output:",
+          "5 4 3 2 1"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "In n trước.",
+          "Sau đó gọi đệ quy với n - 1."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "10. In Từ 1 Đến n",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "In các số từ 1 đến n bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 1000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "",
+          "Output:",
+          "1 2 3 4 5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Gọi đệ quy trước.",
+          "In n sau."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "11. Tìm Ước Chung Lớn Nhất",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho hai số nguyên dương a và b.",
+          "Hãy tìm Ước Chung Lớn Nhất của hai số bằng đệ quy.",
+          "Sử dụng thuật toán Euclid."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= a, b <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "48 18",
+          "",
+          "Output:",
+          "6"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "gcd(a, b) = gcd(b, a % b).",
+          "Điều kiện dừng khi b == 0."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "12. Tìm Kiếm Nhị Phân Bằng Đệ Quy",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng đã sắp xếp tăng dần và số x.",
+          "Tìm vị trí của x bằng tìm kiếm nhị phân đệ quy.",
+          "Nếu không tồn tại thì in -1."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^5",
+          "-10^9 <= a[i] <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 3 5 7 9",
+          "7",
+          "",
+          "Output:",
+          "3"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "So sánh phần tử giữa mảng với x.",
+          "Nếu nhỏ hơn thì tìm bên phải.",
+          "Nếu lớn hơn thì tìm bên trái."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "13. Kiểm Tra Mảng Đối Xứng",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho một mảng số nguyên.",
+          "Kiểm tra mảng có đối xứng hay không bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^5"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 2 3 2 1",
+          "",
+          "Output:",
+          "YES"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "So sánh phần tử đầu và cuối.",
+          "Gọi đệ quy với đoạn bên trong."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "14. Tính Tổng Các Phần Tử Trong Mảng",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng gồm n số nguyên.",
+          "Tính tổng tất cả phần tử bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^5",
+          "-10^6 <= a[i] <= 10^6"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 2 3 4 5",
+          "",
+          "Output:",
+          "15"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "sum(i) = a[i] + sum(i + 1).",
+          "Điều kiện dừng khi hết mảng."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "15. Chuyển Đổi Số Thập Phân Sang Nhị Phân",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Hãy chuyển n sang hệ nhị phân bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "13",
+          "",
+          "Output:",
+          "1101"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Chia n cho 2 liên tục.",
+          "In phần dư sau lời gọi đệ quy."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "16. Tháp Hà Nội",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Có 3 cọc A, B, C và n đĩa với kích thước khác nhau.",
+          "Ban đầu tất cả đĩa nằm ở cọc A theo thứ tự từ lớn đến nhỏ.",
+          "Hãy in ra các bước chuyển toàn bộ đĩa từ A sang C.",
+          "Mỗi lần chỉ được di chuyển một đĩa.",
+          "Không được đặt đĩa lớn lên trên đĩa nhỏ."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "2",
+          "",
+          "Output:",
+          "Move disk 1 from A to B",
+          "Move disk 2 from A to C",
+          "Move disk 1 from B to C"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Di chuyển n - 1 đĩa sang cọc phụ.",
+          "Di chuyển đĩa lớn nhất.",
+          "Di chuyển lại n - 1 đĩa sang đích."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "17. Sinh Tất Cả Hoán Vị",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "Hãy sinh tất cả hoán vị của các số từ 1 đến n bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 8"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3",
+          "",
+          "Output:",
+          "1 2 3",
+          "1 3 2",
+          "2 1 3",
+          "2 3 1",
+          "3 1 2",
+          "3 2 1"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng mảng visited.",
+          "Mỗi lần chọn một số chưa dùng."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "18. Sinh Tất Cả Tập Con",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng gồm n phần tử.",
+          "Hãy in ra tất cả tập con của mảng bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 20"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3",
+          "1 2 3",
+          "",
+          "Output:",
+          "{}",
+          "{1}",
+          "{2}",
+          "{3}",
+          "{1 2}",
+          "{1 3}",
+          "{2 3}",
+          "{1 2 3}"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Mỗi phần tử có 2 lựa chọn.",
+          "Chọn hoặc không chọn."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "19. Tìm Đường Đi Trong Mê Cung",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mê cung gồm các ô 0 và 1.",
+          "0 là đường đi, 1 là tường.",
+          "Hãy kiểm tra có đường đi từ góc trên trái đến góc dưới phải hay không bằng đệ quy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n, m <= 20"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3 3",
+          "0 0 1",
+          "1 0 1",
+          "1 0 0",
+          "",
+          "Output:",
+          "YES"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng DFS đệ quy.",
+          "Đánh dấu ô đã đi qua.",
+          "Di chuyển 4 hướng."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "20. Giải Sudoku",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho bảng Sudoku 9x9 chưa hoàn chỉnh.",
+          "Hãy điền các số còn thiếu bằng thuật toán đệ quy backtracking.",
+          "Mỗi hàng, mỗi cột và mỗi ô 3x3 phải chứa đủ các số từ 1 đến 9."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "Bảng luôn có ít nhất một lời giải."
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5 3 0 0 7 0 0 0 0",
+          "6 0 0 1 9 5 0 0 0",
+          "0 9 8 0 0 0 0 6 0",
+          "...",
+          "",
+          "Output:",
+          "Sudoku solved"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Thử điền số từ 1 đến 9.",
+          "Nếu hợp lệ thì tiếp tục đệ quy.",
+          "Nếu sai thì quay lui."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "21. N-Queens Problem",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Insane",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho bàn cờ kích thước n x n.",
+          "Hãy đặt n quân hậu sao cho không có hai quân hậu nào ăn nhau.",
+          "In ra tất cả cách sắp xếp hợp lệ.",
+          "Hai quân hậu ăn nhau nếu cùng hàng, cùng cột hoặc cùng đường chéo."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 12"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "4",
+          "",
+          "Output:",
+          ". Q . .",
+          ". . . Q",
+          "Q . . .",
+          ". . Q ."
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng backtracking.",
+          "Đánh dấu cột và hai đường chéo.",
+          "Mỗi hàng chỉ đặt một quân hậu."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "22. Knight's Tour",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Insane",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho bàn cờ n x n và vị trí bắt đầu của quân mã.",
+          "Hãy tìm đường đi để quân mã đi qua tất cả ô đúng một lần.",
+          "Quân mã đi theo luật cờ vua."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "5 <= n <= 8"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "0 0",
+          "",
+          "Output:",
+          "Knight tour found"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng DFS backtracking.",
+          "Thử tất cả 8 hướng di chuyển của quân mã.",
+          "Đánh dấu ô đã đi."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "23. Chia Tập Thành Hai Phần Bằng Nhau",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Insane",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng gồm n số nguyên dương.",
+          "Kiểm tra có thể chia mảng thành hai tập con có tổng bằng nhau hay không."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 30",
+          "1 <= a[i] <= 10^5"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "4",
+          "1 5 11 5",
+          "",
+          "Output:",
+          "YES"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tính tổng toàn mảng.",
+          "Nếu tổng lẻ thì không thể chia.",
+          "Dùng đệ quy tìm tập con có tổng bằng tổng / 2."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "24. Sinh Biểu Thức Đúng",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Insane",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "Hãy sinh tất cả chuỗi ngoặc đơn đúng có độ dài 2 * n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3",
+          "",
+          "Output:",
+          "((()))",
+          "(()())",
+          "(())()",
+          "()(())",
+          "()()()"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Số ngoặc mở không được vượt n.",
+          "Số ngoặc đóng không được vượt số ngoặc mở."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "25. Tìm Đường Đi Ngắn Nhất Trong Ma Trận",
+
+    "topic": "Đệ Quy",
+
+    "difficulty": "Insane",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho ma trận gồm các số nguyên dương.",
+          "Hãy tìm đường đi có tổng nhỏ nhất từ góc trên trái đến góc dưới phải.",
+          "Chỉ được đi sang phải hoặc đi xuống."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n, m <= 15",
+          "1 <= a[i][j] <= 1000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3 3",
+          "1 3 1",
+          "1 5 1",
+          "4 2 1",
+          "",
+          "Output:",
+          "7"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng đệ quy thử hai hướng.",
+          "Lấy giá trị nhỏ nhất giữa đi xuống và đi phải."
+        ]
+      }
+
+    ]
+  },
+{
+    "title": "1. Tìm Kiếm Một Phần Tử",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng đã sắp xếp tăng dần gồm n phần tử và số x.",
+          "Hãy tìm vị trí của x trong mảng bằng thuật toán tìm kiếm nhị phân.",
+          "Nếu không tồn tại thì in ra -1."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000",
+          "-10^9 <= a[i], x <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 3 5 7 9",
+          "7",
+          "",
+          "Output:",
+          "3"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "So sánh x với phần tử giữa mảng.",
+          "Thu hẹp phạm vi tìm kiếm."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "2. Kiểm Tra Phần Tử Có Tồn Tại",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần và số x.",
+          "Kiểm tra xem x có tồn tại trong mảng hay không."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "6",
+          "2 4 6 8 10 12",
+          "5",
+          "",
+          "Output:",
+          "NO"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng left và right.",
+          "Nếu tìm thấy thì in YES."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "3. Tìm Phần Tử Nhỏ Nhất Lớn Hơn Hoặc Bằng x",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần và số x.",
+          "Tìm phần tử nhỏ nhất lớn hơn hoặc bằng x."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 3 5 7 9",
+          "6",
+          "",
+          "Output:",
+          "7"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Lưu đáp án khi a[mid] >= x."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "4. Tìm Phần Tử Lớn Nhất Nhỏ Hơn Hoặc Bằng x",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần và số x.",
+          "Tìm phần tử lớn nhất nhỏ hơn hoặc bằng x."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 3 5 7 9",
+          "8",
+          "",
+          "Output:",
+          "7"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Nếu a[mid] <= x thì lưu đáp án."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "5. Tính Căn Bậc Hai Nguyên",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Hãy tìm căn bậc hai nguyên lớn nhất của n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^18"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "17",
+          "",
+          "Output:",
+          "4"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Binary search trên đoạn [0, n]."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "6. Đếm Số Phần Tử Nhỏ Hơn x",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần và số x.",
+          "Đếm số phần tử nhỏ hơn x."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 2 4 6 8",
+          "5",
+          "",
+          "Output:",
+          "3"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tìm vị trí đầu tiên >= x."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "7. Đếm Số Phần Tử Lớn Hơn x",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần và số x.",
+          "Đếm số phần tử lớn hơn x."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "6",
+          "1 2 3 4 5 6",
+          "4",
+          "",
+          "Output:",
+          "2"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tìm vị trí đầu tiên > x."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "8. Tìm Vị Trí Chèn",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần và số x.",
+          "Tìm vị trí cần chèn x để mảng vẫn tăng dần."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "4",
+          "1 3 5 7",
+          "4",
+          "",
+          "Output:",
+          "2"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tìm phần tử đầu tiên >= x."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "9. Tìm Giá Trị Gần x Nhất",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần và số x.",
+          "Tìm phần tử có giá trị gần x nhất."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 4 6 8 10",
+          "7",
+          "",
+          "Output:",
+          "6"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "So sánh hai phần tử gần vị trí lower_bound."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "10. Tìm Số Nhỏ Nhất Trong Mảng Xoay",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần đã bị xoay.",
+          "Hãy tìm phần tử nhỏ nhất."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "4 5 1 2 3",
+          "",
+          "Output:",
+          "1"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "So sánh mid với right."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "11. Tìm Vị Trí Xuất Hiện Đầu Tiên",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần có thể chứa phần tử trùng nhau.",
+          "Hãy tìm vị trí xuất hiện đầu tiên của số x.",
+          "Nếu không tồn tại thì in ra -1."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 200000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "7",
+          "1 2 2 2 3 4 5",
+          "2",
+          "",
+          "Output:",
+          "1"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Khi tìm thấy x vẫn tiếp tục tìm bên trái."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "12. Tìm Vị Trí Xuất Hiện Cuối Cùng",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần có thể chứa phần tử trùng.",
+          "Tìm vị trí xuất hiện cuối cùng của x."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 200000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "7",
+          "1 2 2 2 3 4 5",
+          "2",
+          "",
+          "Output:",
+          "3"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Khi gặp x tiếp tục tìm bên phải."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "13. Đếm Số Lần Xuất Hiện",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần.",
+          "Đếm số lần xuất hiện của x trong mảng."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 200000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "8",
+          "1 2 2 2 3 4 4 5",
+          "2",
+          "",
+          "Output:",
+          "3"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Tìm first position và last position."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "14. Tìm Đỉnh Trong Mảng Bitonic",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng rồi giảm.",
+          "Hãy tìm phần tử lớn nhất trong mảng."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "3 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "7",
+          "1 3 8 12 9 5 2",
+          "",
+          "Output:",
+          "12"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "So sánh a[mid] với a[mid + 1]."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "15. Tìm Số Nhỏ Nhất Thỏa Điều Kiện",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "Tìm số nguyên dương nhỏ nhất x sao cho x² >= n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^18"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "20",
+          "",
+          "Output:",
+          "5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Binary search trên đáp án."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "16. Chia Bánh",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Có n chiếc bánh với kích thước khác nhau.",
+          "Hãy chia bánh cho k người sao cho mỗi người nhận được phần bằng nhau lớn nhất.",
+          "Tìm kích thước lớn nhất có thể."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000",
+          "1 <= k <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3 5",
+          "10 15 20",
+          "",
+          "Output:",
+          "7"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Binary search trên độ dài.",
+          "Kiểm tra số phần cắt được."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "17. Tìm Khoảng Cách Nhỏ Nhất",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho vị trí các ngôi nhà trên một đường thẳng.",
+          "Đặt k bộ phát wifi sao cho khoảng cách nhỏ nhất giữa hai bộ phát là lớn nhất."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "2 <= n <= 200000",
+          "2 <= k <= n"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5 3",
+          "1 2 8 12 17",
+          "",
+          "Output:",
+          "7"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sắp xếp mảng.",
+          "Binary search trên khoảng cách."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "18. Chia Mảng Thành k Đoạn",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng gồm n số nguyên dương.",
+          "Chia mảng thành k đoạn liên tiếp.",
+          "Giá trị của một cách chia là tổng lớn nhất trong các đoạn.",
+          "Tìm giá trị nhỏ nhất có thể."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000",
+          "1 <= k <= n"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5 2",
+          "7 2 5 10 8",
+          "",
+          "Output:",
+          "18"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Binary search trên đáp án.",
+          "Kiểm tra số đoạn cần dùng."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "19. Tìm Phần Tử Thiếu",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng tăng dần gồm các số từ 1 đến n nhưng thiếu đúng một số.",
+          "Hãy tìm số bị thiếu bằng binary search."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "1 2 3 5",
+          "",
+          "Output:",
+          "4"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "So sánh giá trị với chỉ số."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "20. Tìm Median Của Hai Mảng Đã Sắp Xếp",
+
+    "topic": "Tìm kiếm nhị phân",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho hai mảng đã sắp xếp tăng dần.",
+          "Hãy tìm median của hai mảng với độ phức tạp O(log(min(n,m)))."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n, m <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "2",
+          "1 3",
+          "2",
+          "2 4",
+          "",
+          "Output:",
+          "2.5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Binary search trên mảng nhỏ hơn.",
+          "Chia hai mảng thành hai nửa."
+        ]
+      }
+
+    ]
+  },
+  {
+    "title": "1. In Các Số Từ 1 Đến n",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Hãy in các số từ 1 đến n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "",
+          "Output:",
+          "1 2 3 4 5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng vòng lặp for từ 1 đến n."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "2. Tính Tổng Từ 1 Đến n",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Tính tổng các số từ 1 đến n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 1000000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "",
+          "Output:",
+          "15"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Cộng dồn trong vòng lặp."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "3. In Bảng Cửu Chương",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "In bảng cửu chương của n từ 1 đến 10."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 20"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "2",
+          "",
+          "Output:",
+          "2 x 1 = 2",
+          "2 x 2 = 4",
+          "...",
+          "2 x 10 = 20"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng vòng lặp từ 1 đến 10."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "4. Đếm Số Chẵn",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "Đếm có bao nhiêu số chẵn từ 1 đến n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "10",
+          "",
+          "Output:",
+          "5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Kiểm tra i % 2 == 0."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "5. Tính Giai Thừa",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Tính n! bằng vòng lặp."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 12"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "",
+          "Output:",
+          "120"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Nhân dồn từ 1 đến n."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "6. Tính Tổng Các Chữ Số",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Tính tổng các chữ số của n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^18"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "1234",
+          "",
+          "Output:",
+          "10"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Lấy chữ số cuối bằng n % 10."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "7. Đảo Ngược Số",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Hãy đảo ngược các chữ số của n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^18"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "12345",
+          "",
+          "Output:",
+          "54321"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Lấy từng chữ số cuối và ghép lại."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "8. Kiểm Tra Số Nguyên Tố",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Kiểm tra n có phải số nguyên tố hay không."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "2 <= n <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "13",
+          "",
+          "Output:",
+          "YES"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Kiểm tra các ước từ 2 đến sqrt(n)."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "9. In Tam Giác Sao",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "In tam giác gồm n dòng bằng ký tự *."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 50"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3",
+          "",
+          "Output:",
+          "*",
+          "**",
+          "***"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng hai vòng lặp lồng nhau."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "10. Tìm Số Lớn Nhất",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Easy",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho n số nguyên.",
+          "Tìm số lớn nhất trong dãy."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "5",
+          "3 9 1 7 5",
+          "",
+          "Output:",
+          "9"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Cập nhật max liên tục."
+        ]
+      }
+
+    ]
+  },
+{
+    "title": "11. Tìm Số Fibonacci Thứ n",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "Hãy tìm số Fibonacci thứ n bằng vòng lặp.",
+          "Dãy Fibonacci được định nghĩa:",
+          "F(0) = 0, F(1) = 1.",
+          "F(n) = F(n - 1) + F(n - 2)."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "0 <= n <= 90"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "7",
+          "",
+          "Output:",
+          "13"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng 3 biến để lưu Fibonacci.",
+          "Cập nhật liên tục trong vòng lặp."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "12. Tìm Ước Chung Lớn Nhất",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho hai số nguyên dương a và b.",
+          "Tìm Ước Chung Lớn Nhất bằng vòng lặp."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= a, b <= 10^18"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "48 18",
+          "",
+          "Output:",
+          "6"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng thuật toán Euclid.",
+          "Lặp cho đến khi b == 0."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "13. Đếm Số Nguyên Tố Trong Đoạn",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho hai số nguyên l và r.",
+          "Đếm có bao nhiêu số nguyên tố trong đoạn [l, r]."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= l <= r <= 100000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "1 10",
+          "",
+          "Output:",
+          "4"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Kiểm tra từng số có phải nguyên tố hay không."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "14. Kiểm Tra Số Hoàn Hảo",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Kiểm tra n có phải số hoàn hảo hay không.",
+          "Số hoàn hảo là số có tổng các ước dương nhỏ hơn nó bằng chính nó."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "28",
+          "",
+          "Output:",
+          "YES"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Duyệt các ước từ 1 đến sqrt(n)."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "15. Tìm Bội Chung Nhỏ Nhất",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Medium",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho hai số nguyên dương a và b.",
+          "Tìm Bội Chung Nhỏ Nhất của hai số."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= a, b <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "12 18",
+          "",
+          "Output:",
+          "36"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "BCNN = (a * b) / UCLN."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "16. In Ma Trận Xoắn Ốc",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên n.",
+          "Hãy in ma trận xoắn ốc kích thước n x n.",
+          "Các số bắt đầu từ 1."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 100"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3",
+          "",
+          "Output:",
+          "1 2 3",
+          "8 9 4",
+          "7 6 5"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng 4 biên: top, bottom, left, right."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "17. Tìm Dãy Con Có Tổng Lớn Nhất",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng gồm n số nguyên.",
+          "Tìm tổng lớn nhất của dãy con liên tiếp."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 200000",
+          "-10^9 <= a[i] <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "8",
+          "-2 -3 4 -1 -2 1 5 -3",
+          "",
+          "Output:",
+          "7"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng thuật toán Kadane."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "18. Tìm Số Armstrong",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Kiểm tra n có phải số Armstrong hay không.",
+          "Một số Armstrong là số có tổng lũy thừa bậc k của các chữ số bằng chính nó."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 10^9"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "153",
+          "",
+          "Output:",
+          "YES"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Đếm số chữ số trước.",
+          "Tính tổng các lũy thừa."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "19. Đếm Tam Giác Hợp Lệ",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho mảng gồm n cạnh.",
+          "Đếm số bộ ba có thể tạo thành tam giác."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "3 <= n <= 2000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "4",
+          "4 6 3 7",
+          "",
+          "Output:",
+          "3"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Sắp xếp mảng.",
+          "Dùng hai con trỏ."
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title": "20. Tìm Số Nhỏ Nhất Chia Hết",
+
+    "topic": "Vòng lặp",
+
+    "difficulty": "Hard",
+
+    "sections": [
+
+      {
+        "smallTitle": "Problem",
+
+        "content": [
+          "Cho số nguyên dương n.",
+          "Tìm số nguyên dương nhỏ nhất chỉ gồm chữ số 0 và 1 chia hết cho n."
+        ]
+      },
+
+      {
+        "smallTitle": "Constraints",
+
+        "content": [
+          "1 <= n <= 20000"
+        ]
+      },
+
+      {
+        "smallTitle": "Example",
+
+        "content": [
+          "Input:",
+          "3",
+          "",
+          "Output:",
+          "111"
+        ]
+      },
+
+      {
+        "smallTitle": "Hint",
+
+        "hint": [
+          "Dùng BFS kết hợp phép chia dư.",
+          "Không cần lưu số quá lớn."
+        ]
+      }
+
+    ]
+  }
+]
