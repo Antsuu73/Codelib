@@ -4,8 +4,8 @@ let currentLang = "All";
 const container = document.getElementById("notesContainer");
 const searchInput = document.getElementById("search");
 
-fetch("/json/notes.json")
-  .then(res => res.json())
+fetch("../json/homework.json")
+.then(res => res.json())
   .then(data => {
     notes = data;
     renderNotes();

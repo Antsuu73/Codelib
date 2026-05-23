@@ -18,7 +18,7 @@ let currentLessons   = [];
    LOAD JSON
 ========================= */
 
-fetch("/json/data.json")
+fetch(".../json/homework.json")
   .then(res => res.json())
   .then(data => {
 

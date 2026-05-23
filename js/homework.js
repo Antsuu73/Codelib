@@ -24,7 +24,7 @@ let currentTopic = "Tổng Hợp";
    LOAD JSON
 ========================= */
 
-fetch("/json/homework.json")
+fetch("../json/homework.json")
 
 .then(response => response.json())
 
