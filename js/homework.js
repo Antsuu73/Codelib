@@ -25,7 +25,6 @@ let currentTopic = "Tổng Hợp";
 ========================= */
 
 fetch("../json/homework.json")
-
 .then(response => response.json())
 
 .then(data => {
